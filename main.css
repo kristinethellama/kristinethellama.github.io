@@ -16,7 +16,7 @@ body {
     margin-right: 1em !important;
   }
   .nav-link:hover {
-    color: #000;
+    color: rgb(116, 116, 116);
   }
   .navbar-collapse {
     justify-content: flex-end;
@@ -49,6 +49,7 @@ body {
     background-color: #222;
     color: #ccc;
     padding: 60px 0 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
   .footer-copyright {
@@ -72,6 +73,7 @@ body {
     color: #fff;
     font-size: 1.3rem;
     line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
 
@@ -87,6 +89,7 @@ body {
     line-height: 1.0;
     text-align: left;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .aboutstuff h2 {
@@ -105,4 +108,40 @@ body {
     border: 3px solid rgb(17, 17, 17);
     background: rgb(0, 0, 0);
     padding: 30px;
+  }
+
+  .mb-4 {
+    display: block;
+    margin: 50px 100px 150px;
+  }
+
+  a {
+    color: rgb(53, 54, 83);
+  }
+
+  a:hover {
+    color: rgb(98, 95, 145);
+  }
+  .page-content {
+    display: block;
+    margin: 50px 100px 150px;
+  }
+
+  .image-art{width: 100%}
+  .image-art img{
+    width: 100%;
+    padding: 10px;
+  }
+
+  .p-column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .p-row::after {
+    content: "";
+    clear: both;
+    display: table;
   }
