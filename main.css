@@ -3,6 +3,16 @@ body {
     margin: 0;
     background: #faf5fc;
   }
+
+  @font-face {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+    src: local('fonts/MPLUSRounded1c-Regular.ttf'), 
+         local('fonts/MPLUSRounded1c-Regular.ttf'), 
+         url('MPLUSRounded1c-Regular') format('truetype'),
+         url('MPLUSRounded1c-Regular.svg#font') format('svg'); 
+}
+
   /*--- navigation bar ---*/
   .navbar {
     background:#000000;
@@ -49,7 +59,7 @@ body {
     background-color: #222;
     color: #ccc;
     padding: 60px 0 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
   }
   
   .footer-copyright {
@@ -73,7 +83,7 @@ body {
     color: #fff;
     font-size: 1.3rem;
     line-height: 1.5;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
   }
 
 
@@ -89,7 +99,7 @@ body {
     line-height: 1.0;
     text-align: left;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
   }
 
   .aboutstuff h2 {
