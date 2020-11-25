@@ -1,3 +1,8 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -19,7 +24,7 @@ body {
   }
   .nav-link,
   .navbar-brand {
-    color: #fff;
+    color: rgb(85, 85, 85);
     cursor: pointer;
   }
   .nav-link {
@@ -55,17 +60,15 @@ body {
     max-width: 250px;
 }
 
-  .page-footer {
-    background-color: #222;
-    color: #ccc;
-    padding: 60px 0 30px;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-  }
-  
-  .footer-copyright {
-    color: #666;
-    padding: 40px 0;
-  }
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #161515;
+}
+
   
   .description {
     left: 50%;
